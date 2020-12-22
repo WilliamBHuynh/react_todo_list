@@ -32,8 +32,12 @@ const App: React.FC = () => {
   }
   return (
     <React.Fragment>
-      <TodoList todos={todos} toggleTodo={toggleTodo} />
-      <AddTodoForm addTodo={addTodo} />
+      <div>
+        <div>
+          <AddTodoForm addTodo={addTodo} />
+        </div>
+        <TodoList todos={todos} toggleTodo={toggleTodo} />
+      </div>
     </React.Fragment>
   );
 }
