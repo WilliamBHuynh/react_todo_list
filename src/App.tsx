@@ -3,9 +3,9 @@ import { AddTodoForm } from './AddTodoForm';
 import { TodoList } from "./TodoList";
 
 const initialTodos: Array<Todo> = [
-  { text: "Walk the dog", complete: true },
-  { text: "Docker tutorial", complete: true },
-  { text: "Workout", complete: false }
+  // { text: "Walk the dog", complete: true },
+  // { text: "Docker tutorial", complete: true },
+  // { text: "Workout", complete: false }
 ];
 
 const App: React.FC = () => {
